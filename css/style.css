@@ -115,3 +115,9 @@ nav#page3 ul li a:hover {
 .hobbies {
     border: 4px solid brown;
 }
+
+body {
+  background-image: url("../media/hexagons.jpg");
+}
+
+
