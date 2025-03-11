@@ -24,14 +24,14 @@ nav#page1 ul li {
 
 nav#page1 ul li a {
 	display: block;
-	background-color: beige;
-	font-size: 20px;
+	background-color: #83d6a6;
+	font-size: 25px;
 	color: black;
 	font-weight: bold;
 	text-decoration: none;
 	text-align: center;
 	width: 100px;
-	padding: 10px 0px 8px 0px;
+	padding: 10px 10px 10px 10px;
 	border-radius: 4px
 }
 
@@ -46,7 +46,7 @@ nav#page1 ul li:hover a {
 }
 
 nav#page2 {
-  background-color: sandybrown;
+  background-color: #9de0ad;
 }
 
 nav#page2 ul {
@@ -105,7 +105,7 @@ nav#page3 ul li a {
 }
 
 nav#page3 ul li a:hover {
-  background-color: brown;
+  background-color: whitesmoke;
   color: maroon;
 }
 
@@ -143,7 +143,7 @@ footer {
 }
 
 #page-wrapper {
-  width: 960px;
+  width: 87%;
   margin: 0 auto;
   box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 1); 
   border-radius: 12px 12px 0px 0px; 
@@ -155,15 +155,13 @@ header {
   padding: 10px 0;
   text-align: center;
   border-radius: 12px 12px 0 0;
-  background-image: url("../media/rhombuspattern.jpg");
+  background-color: #e5fcc2;
 }
 
 h1 {
-  position: absolute;
-  top:10px;
-  font-size: 4em;
-  font-family: sans-serif;
-  color: black;
+  font-family: "DM Serif Text", serif;
+  font-size: 4.5em;
+  font-style: normal;
 }
 
 #content-wrapper {
