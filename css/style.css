@@ -182,13 +182,26 @@ h1 {
 
 #contact {
   float: left;
-  width: 35%;
+  width: 30%;
   padding: 0 45px;
 }
+
+#main-content {
+  float: right;
+  width: 60%;
+  padding: 0 0 10px;
+}
+
 
 ul {
   line-height: 1.5;
 }
+
+ol {
+  line-height: 1.5;
+}
+
+
 
 
 
