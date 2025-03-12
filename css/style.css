@@ -99,9 +99,17 @@ img.resume{
   padding: 0 0 10px;
 }
 
-#main-content h2 {
+#main-content h2, #contact h2 {
   color: #547980;
+}
+
+#main-content ul li:hover,
+#main-content ol li:hover, 
+#contact ul li:hover,
+#main-content p:hover,
+#contact p:hover {
   text-decoration: underline;
+  text-decoration-color: black;
 }
 
 /*Page2*/
@@ -126,9 +134,9 @@ nav#page2 ul li a:hover {
 }
 
 #love h2, #members h2, #origins h2 {
-  color: #45ada8;
-  text-decoration: underline;
-  text-decoration-color: black;
+  color: black;
+  font-family: "Liu Jian Mao Cao", sans-serif;
+  font-size: 30px;
 }
 
 img.family{ 
@@ -144,7 +152,7 @@ iframe {
   width: 700px;
   height: 400px;
   padding: 20px 20px 20px 20px;
-  background-color: #45ada8;
+  background: linear-gradient(135deg, rgba(184,225,252,1) 0%,rgba(169,210,243,1) 10%,rgba(144,186,228,1) 25%,rgba(144,188,234,1) 37%,rgba(144,191,240,1) 50%,rgba(162,218,245,1) 83%,rgba(189,243,253,1) 100%);
   margin: 20px 0 20px 0px;
   border-radius: 12px 12px 12px 12px; 
 }
@@ -165,31 +173,36 @@ nav#page3 ul li a:hover {
   padding: 0 0 10px;
 }
 
-#welcome h2, #mediums h2, #stationary h2{
+#mediums h2, #stationary h2{
   color: maroon;
-} 
+}
+#welcome h2 {
+  color: lightgray;
+  font-size: 3em;
+  text-shadow:3px 3px 0 darkred;
+}
 
 img.hobbies{ 
   border: 4px solid brown;
   width: 35%;
   padding: 10px;
-  background-color: white;
+  background: linear-gradient(135deg, rgba(242,130,91,1) 0%,rgba(140,42,43,1) 50%,rgba(240,113,70,1) 100%);
   margin: 20px 0 20px 0px;
   border-radius: 12px 12px 12px 12px; 
 }
 
-#mediums {
-  float: left;
-  width: 41%;
-  padding: 10px 45px 20px;
-  border: 1px solid black;
+
+#mediums, #stationary {
+  display: inline-block;
+  width: 90%;
+  margin: 10px;
+  padding: 15px 20px 0 50px;
+  background-color: white;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
 
-#stationary {
-  float: right;
-  width: 41%;
-  padding: 20px 55px 70px;
-  border: 1px solid black;
+#mediums:hover, #stationary:hover {
+  background-color: whitesmoke;
 }
-
 
