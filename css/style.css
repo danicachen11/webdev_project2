@@ -55,40 +55,40 @@ nav#page1 {
 }
 
 nav#page1 ul {
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
   display: inline-block;
   vertical-align: top;
-	overflow: hidden;
+  overflow: hidden;
 }
 
 nav#page1 ul li {
-	float: left;
-	margin: 0 15px;
+  float: left;
+  margin: 0 15px;
 }
 
 nav#page1 ul li a {
-	display: block;
-	background-color: #83d6a6;
-	font-size: 25px;
-	color: black;
-	font-weight: bold;
-	text-decoration: none;
-	text-align: center;
-	width: 100px;
-	padding: 10px 10px 10px 10px;
-	border-radius: 4px
+  display: block;
+  background-color: #83d6a6;
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  width: 100px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 4px
 }
 
 nav#page1 ul li:hover a {
-	background-color: black;
-	color: beige ;
-	border-radius: 20px;
+  background-color: black;
+  color: beige ;
+  border-radius: 20px;
 }
 
 .clear {
-	clear: both;
+  clear: both;
 }
 
 #contact {
