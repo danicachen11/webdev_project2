@@ -10,7 +10,7 @@ header {
 } 
 
 h1 {
-  font-family: "DM Serif Text", san serif;
+  font-family: "DM Serif Text", sans-serif, monospace;
   font-size: 4.5em;
 }
 
@@ -43,7 +43,7 @@ nav ul li a {
   text-decoration: none;
   font-weight: bold;
   text-transform: uppercase;
-  font-family: sans-serif, Arial;
+  font-family: sans-serif,serif,monospace;
 }
 
 .container {
@@ -135,7 +135,7 @@ nav#page2 ul li a:hover {
 
 #love h2, #members h2, #origins h2 {
   color: black;
-  font-family: "Liu Jian Mao Cao", sans-serif;
+  font-family: "Liu Jian Mao Cao", sans-serif, monospace;
   font-size: 30px;
 }
 
